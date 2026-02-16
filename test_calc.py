@@ -1,3 +1,4 @@
+!pip install python
 from calc import add
 
 def test_add():
