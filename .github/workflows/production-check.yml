@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Dependencies
-        run: npm install # Even if the folder is empty, this is good practice
-
       - name: Run Unit Tests
         run: node test.js
 
